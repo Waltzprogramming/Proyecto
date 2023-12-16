@@ -1,0 +1,349 @@
+body {
+    background-color: white;
+}
+
+
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.Linea {
+    width: 1250px;
+    height: 2px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-left: -10px;
+    position: relative;
+    visibility: hidden;
+}
+
+.centrado {
+    color: white;
+    position: absolute;
+    margin-top: -160px;
+    left: 41%;
+}
+
+.h1 {
+    color: rgb(250, 155, 72) !important;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 45px;
+    position: relative;
+    display: flex;
+    z-index: 2;
+}
+
+.Logo1 {
+    width: 1510px;
+    height: 600px;
+    margin-top: -50px;
+}
+
+.Contenedoretiquetasprimarias {
+    
+    border-color: #753b2a;
+    background-color: #964b36;
+    border-width: 1px;
+    border-style: solid;
+    width: 1230px;
+    height: 200px;
+    right: 0%;
+    left: 0%;
+    position: absolute;
+    margin-top: -174px;
+    margin-left: -8px;
+    z-index: 1;
+
+}
+
+
+
+.Contenedoretiquetasprimarias>div>a:hover {
+    color: white !important;
+    font-size: 35px;
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+
+.Contenedorhijo {
+    border-width: 1px;
+    width: 180px;
+    height: 200px;
+    align-items: center;
+    position: relative;
+    margin-top: 120px;
+    z-index: 3;
+}
+
+.C1 {
+    margin-left: 250px;
+    margin-top: -200px;
+    width: 190px;
+    z-index: 3;
+}
+
+.C2 {
+    margin-left: 500px;
+    margin-top: -200px;
+    width: 140px;
+}
+
+.C3 {
+    margin-left: 700px;
+    margin-top: -200px;
+    width: 260px;
+}
+
+.C4 {
+    margin-left: 1000px;
+    margin-top: -200px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.h2pre {
+    font-family: 'Playfair Display', serif;
+    font-weight: 35px;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 25%;
+    background-color: black;
+    color: rgb(159, 49, 49) !important;
+}
+
+.c1 {
+    margin-left: 10px;
+    margin-top: -350px;
+    font-size: 30px;
+    position: relative;
+}
+
+.c2 {
+    margin-left: 10px;
+    margin-top: 78px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.c3 {
+    margin-left: 40px;
+    margin-top: 65px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.c4 {
+    margin-left: 10px;
+    margin-top: 65px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Ji{
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+    font-style: italic;
+    font-size: 5rem;
+    color: #a75e47;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    margin-top: -320px;
+    z-index: 11;
+    margin-left: 43%;
+}
+
+.Fondo2 {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 120px;
+    margin-top: -380px;
+    margin-left: 0px;
+}
+
+.Logo2 {
+    width: 200px;
+    height: 150px;
+    margin-left: 1280px;
+    
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+.Contenedor-imagen {
+    
+    position: relative;
+
+    z-index: 2;
+    margin-left: 1200px;
+    margin-top: -180px;
+}
+
+
+
+.Ima {
+    position: relative;
+    background: linear-gradient(to left, rgb(95, 34, 34), rgb(200, 145, 22));
+    width: auto;
+    height: 211px;
+    margin-left: 20px;
+    margin-top: -100px;
+    z-index: 1;
+}
+
+.LOGO {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 1270px;
+    margin-top: -230px;
+    z-index: 2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quintessential', serif;
+}
+.container-form{
+    border: 3px solid gray;
+    background-color: #b08e56;
+    width: 100%;
+    height: 580px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: -25px;
+}
+.container-form  h2{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 300px
+}
+.container-form  p{
+    font-family: 'Kalnia', serif;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: justify;
+    line-height: 30px;
+    
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 700;
+}
+.container-form  a  i{
+    color: orange;
+    margin-right: 10px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: -20px;
+    margin-top: 70px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    margin-top: 50px;
+    margin-left: 45%;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #e39403;
+}
+
+.cafe{
+    border: 1px solid #342c2a;
+    background-color: #342c2a;
+    width: 100%;
+    height: 425px;
+}
+
+.mini-log{
+    width: 200px;
+    height: 150px;
+    margin-left: 685px;
+    margin-top: 40px;
+}
+
+.Mini-h2{
+    margin-left: 43%;
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(250, 155, 72) !important;
+}
+
+.Mini-h3{
+    font-size: 17px;
+    margin-left: 45.5%;
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(159, 49, 49) !important;
+}
+
+.Mini-h4{
+    font-size: 19px;
+    margin-left: 47.5%;
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(159, 49, 49) !important;
+}
+
+.Mini-h5{
+    font-size: 15px;
+    margin-left: 46.5%;
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(159, 49, 49) !important;
+}
+
+.Mini-h6{
+    font-size: 15px;
+    margin-left: 38%;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(110, 33, 33) !important;
+}
